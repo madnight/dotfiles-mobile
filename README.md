@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/madnight/dotfiles-mobile.svg?branch=master)](https://travis-ci.org/madnight/dotfiles-mobile)
+
 My Arch Linux Notebook setup
 
 Programms i use:
