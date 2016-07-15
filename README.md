@@ -12,3 +12,5 @@ Programms i use:
 
 CURRENT:
 ![Alt text](https://raw.github.com/madnight/mobile_dotfiles/master/screenshot.png "SCREENSHOT")
+
+See also: [madnight/dotfiles](https://github.com/madnight/dotfiles)
