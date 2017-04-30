@@ -1,178 +1,195 @@
-! #########################################
-! urxvt*perl-lib:			/usr/lib/urxvt/perl
-!urxvt*perl-ext-common:		default,matcher,clipboard,font-size
-!urxvt*perl-matcher: 		1
-!urxvt*matcher-button: 		3
-!urxvt*url-launcher:		/usr/bin/firefox
-!URxvt*matcher.button: 1
-!URxvt*matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
-urxvt*cursorUnderline: 1
-urxvt*letterspace: -5
-!urxvt*fading: 			10
-!urxvt*fadeColor: 		#000000	
-urxvt*cursorBlink:		true
-urxvt*scrollBar:		false
-urxvt*depth:			32 
-urxvt*internalBorder: 		5
-urxvt*dynamicColors: on
-urxvt.urgentOnBell:  true
+*background:            #272827
+*foreground:            #657b83
+*fading:                15
+*fadeColor:             black
+*cursorColor:           #16A085
+*pointerColorBackground:#2B2C2B
+*pointerColorForeground:#16A085
 
-! Font change settings
-URxvt.keysym.C-equal:	perl:font-size:increase
-URxvt.keysym.C-minus:   perl:font-size:decrease
+!! black dark/light
+*color0:                #282928
+*color8:                #272827
 
-!urxvt*font: -*-tamzen-medium-r-normal-*-*-87-*-*-*-*-*-*
-!urxvt*boldFont: -*-tamzen-medium-r-normal-*-*-87-*-*-*-*-*-*
-!urxvt*italicFont: -*-tamzen-medium-r-normal-*-*-87-*-*-*-*-*-*
-!urxvt*bolditalicFont: -*-tamzen-medium-r-normal-*-*-87-*-*-*-*-*-*
+!! red dark/light
+*color1:                #983133
+*color9:                #985F31
 
-!urxvt*font: -*-neep-medium-r-semicondensed-*-11-*-*-*-*-*-*-*
-!urxvt*boldFont: -*-neep-medium-r-semicondensed-*-11-*-*-*-*-*-*-*
-!urxvt*italicFont: -*-neep-medium-r-semicondensed-*-11-*-*-*-*-*-*-*
-!urxvt*bolditalicFont:-*-neep-medium-r-semicondensed-*-11-*-*-*-*-*-*-*
+!! green dark/light
+*color2:                #1D584D
+*color10:               #16A085
 
-!URxvt.font: 9x15
+!! yellow dark/light
+*color3:                #5CE022
+*color11:               #63B93D
 
-!urxvt*font: -lokaltog-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-1
-!urxvt*boldFont: -lokaltog-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-1
-!urxvt*italicFont: -lokaltog-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-1
-!urxvt*bolditalicFont: -lokaltog-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-1
+!! blue dark/light
+*color4:                #001B33
+*color12:               #839496
 
-!urxvt*font: -lokaltog-fixed-medium-r-normal--10-100-75-75-c-60-iso10646-1
-!urxvt*boldFont: -lokaltog-fixed-medium-r-normal--10-100-75-75-c-60-iso10646-1
-!urxvt*italic: -lokaltog-fixed-medium-r-normal--10-100-75-75-c-60-iso10646-1
-!urxvt*bolditalicFont: -lokaltog-fixed-medium-r-normal--10-100-75-75-c-60-iso10646-1
+!! cyan dark/light
+*color6:                #4F6A98
+*color14:               #2269E0
 
-!urxvt*font: -*-lemon-*-*-*-*-*-*-*-*-*-*-*-*
-!urxvt*boldFont: -*-lemon-*-*-*-*-*-*-*-*-*-*-*-*
-!urxvt*italicFont: -*-lemon-*-*-*-*-*-*-*-*-*-*-*-*
-!urxvt*bolditalicFont: -*-lemon-*-*-*-*-*-*-*-*-*-*-*-*
+!! white dark/light
+*color7:                #fdf6e3
+*color15:               #fdf6e3
 
-!urxvt*font: xft:dejavu sans mono:size=10
-!urxvt*boldFont: xft:dejavu sans mono:bold:size=10
-!urxvt*italicFont: xft:dejavu sans mono:italic:size=10
-
-!urxvt*font: -lucy-tewi-medium-r-normal--11-90-75-75-p-58-iso10646-1
-!urxvt*boldFont: -lucy-tewi-medium-r-normal--11-90-75-75-p-58-iso10646-1
-!urxvt*italicFont: -lucy-tewi-medium-r-normal--11-90-75-75-p-58-iso10646-1
-!urxvt*bolditalicFont: -lucy-tewi-medium-r-normal--11-90-75-75-p-58-iso10646-1
-
-!urxvt*font: -*-tewi-medium-r-*-*-11-*-*-*-*-*-*-*
-!urxvt*boldFont: -*-tewi-medium-r-*-*-11-*-*-*-*-*-*-*
-!urxvt*italicFont: -*-tewi-medium-r-*-*-11-*-*-*-*-*-*-*
-!urxvt*bolditalicFont: -*-tewi-medium-r-*-*-11-*-*-*-*-*-*-*
-
-!urxvt*font: -*-profont-medium-*-*-*-11-*-*-*-*-*-*-*
-!urxvt*boldFont: -*-profont-bold-*-*-*-11-*-*-*-*-*-*-*
-!urxvt*italicFont: -*-profont-medium-*-*-*-11-*-*-*-*-*-*-*
-!urxvt*bolditalicFont: -*-profont-bold-*-*-*-11-*-*-*-*-*-*-*
-
-!urxvt*font: -*-dash-*-*-*-*-*-*-*-*-*-*-*-*
-!urxvt*boldFont: -*-dash-*-*-*-*-*-*-*-*-*-*-*-*
-!urxvt*italicFont: -*-dash-*-*-*-*-*-*-*-*-*-*-*-*
-!urxvt*bolditalicFont: -*-dash-*-*-*-*-*-*-*-*-*-*-*-*
-
-!urxvt*font: -*-suxus-*-*-*-*-*-*-*-*-*-*-*-*
-!urxvt*boldFont: -*-suxus-*-*-*-*-*-*-*-*-*-*-*-*
-!urxvt*italicFont: -*-suxus-*-*-*-*-*-*-*-*-*-*-*-*
-!urxvt*bolditalicFont: -*-suxus-*-*-*-*-*-*-*-*-*-*-*-*
-
-!urxvt*font: -*-limey-*-*-*-*-*-*-*-*-*-*-*-*
-!urxvt*boldFont: -*-limey-*-*-*-*-*-*-*-*-*-*-*-*
-!urxvt*italicFont: -*-limey-*-*-*-*-*-*-*-*-*-*-*-*
-!urxvt*bolditalicFont: -*-limey-*-*-*-*-*-*-*-*-*-*-*-*
-
-
-
-!urxvt*font: -*-lime-*-*-*-*-*-*-*-*-*-*-*-*
-!urxvt*boldFont: -*-lime-*-*-*-*-*-*-*-*-*-*-*-*
-!urxvt*italicFont: -*-lime-*-*-*-*-*-*-*-*-*-*-*-*
-!urxvt*bolditalicFont: -*-lime-*-*-*-*-*-*-*-*-*-*-*-*
-
-!urxvt*font: -*-cure-medium-*-*-*-*-*-*-*-*-*-*-*
-!urxvt*boldFont: -*-cure-medium-*-*-*-*-*-*-*-*-*-*-*
-!urxvt*italicFont: -*-cure-medium-*-*-*-*-*-*-*-*-*-*-*
-!urxvt*bolditalicFont: -*-cure-medium-*-*-*-*-*-*-*-*-*-*-*
-
-
-!urxvt*font: -*-terminus-medium-r-normal-*-12-*-*-*-*-*-*-*
-!urxvt*boldFont: -*-terminus-bold-r-normal-*-12-*-*-*-*-*-*-*
-!urxvt*italicFont: -*-terminus-medium-r-normal-*-12-*-*-*-*-*-*-*
-!urxvt*bolditalicFont: -*-terminus-bold-r-normal-*-12-*-*-*-*-*-*-*
-
-!urxvt*font: xft:inconsolata:size=11
-!urxvt*boldFont: xft:inconsolata:bold:size=11
-!urxvt*italicFont: xft:inconsolata:italic:size=11
-
-urxvt*font: -*-gohufont-medium-r-normal-*-14-*-*-*-*-*-*-*
-urxvt*boldFont: -*-gohufont-bold-r-normal-*-14-*-*-*-*-*-*-*
-urxvt*italicFont: -*-gohufont-medium-r-normal-*-14-*-*-*-*-*-*-*
-urxvt*bolditalicFont: -*-gohufont-bold-r-normal-*-14-*-*-*-*-*-*-*
-
-
-xterm*font: -*-gohufont-medium-r-normal-*-14-*-*-*-*-*-*-*
-xtermt*boldFont: -*-gohufont-bold-r-normal-*-14-*-*-*-*-*-*-*
-xterm*locale: true
-
-
-!urxvt*font: -*-terminus12-medium-r-normal-*-*-*-*-*-*-*-*-*
-!urxvt*boldFont: -*-terminus12-bold-r-normal-*-*-*-*-*-*-*-*-*
-!urxvt*italicFont: -*-terminus12-medium-r-normal-*-*-*-*-*-*-*-*-*
-!urxvt*bolditalicFont: -*-terminus12-bold-r-normal-*-*-*-*-*-*-*-*-*
-
-!urxvt*font: -*-terminus-medium-r-normal-*-11-*-*-*-*-*-*-* 
-!urxvt*boldFont: -*-terminus-medium-r-normal-*-11-*-*-*-*-*-*-* 
-!urxvt*italicFont: -*-terminus-medium-r-normal-*-11-*-*-*-*-*-*-* 
-!urxvt*bolditalicFont: -*-terminus-medium-r-normal-*-11-*-*-*-*-*-*-* 
-
-Xft.antialias: 1
-Xft.autohint: 0
-Xft.dpi: 96 
-Xft.hinting: 1
-Xft.hintstyle: hintfull
-Xft.lcdfilter: lcddefault
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
 Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+Xcursor.theme: Chameleon-Pearl-Regular-0.5
+Xcursor.size:  0
 
-xterm*cursor: i-beam
+XTerm*background: #272827
+XTerm*foreground: #fdf6e3
+XTerm*reverseVideo: on
+XTerm*faceName: Terminus:size=11:antialias=true
+XTerm*selectToClipboard: true
 
-xclock*majorColor: #9a875f
-xclock*minorColor: #9a875f
-xclock*minuteColor: #9a875f
-xclock*hourColor: #9a875f
-xclock*secondColor: #9a875f
+URxvt.font: 9x15
+URxvt.depth: 32
+URxvt.background: [80]#000000
+URxvt*scrollBar:                      false
+URxvt*mouseWheelScrollPage:           false
+URxvt*cursorBlink:                    true
+URxvt*background:                     black
+URxvt*foreground:                     grey
+URxvt*saveLines:                      5000
 
-*.background: #1f1f1f
-*foreground: #c0b18b
+! for 'fake' transparency (without Compton) uncomment the following three lines
+! URxvt*inheritPixmap:                  true
+! URxvt*transparent:                    true
+! URxvt*shading:                        138
 
-!black
-*color0:#4A3637
-*color8:#4A3637
-
-!red
-*color1:#d17b49
-*color9:#d17b49
-
-!green
-*color2:#7b8748
-*color10:#7b8748
-
-!yellow
-*color3:#af865a
-*color11:#af865a
-
-!blue
-*color4:#535C5C
-*color12:#535C5C
-
-!magenta
-*color5:#775759
-*color13:#775759
-
-!cyan
-*color6:#6d715e
-*color14:#6d715e
-
-!white
-*color7:#c0b18b
-*color15:#c0b18b
-
+! other possible settings:
+! Rxvt.perl-ext-common: ...,clipboard
+! URxvt.keysym.M-C-c:   perl:clipboard:copy
+! URxvt.keysym.M-v:   perl:clipboard:paste
+! URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+! URxvt*termName:                       string
+! URxvt*geometry:                       geometry
+! URxvt*chdir:                          string
+! URxvt*reverseVideo:                   boolean
+! URxvt*loginShell:                     boolean
+! URxvt*multiClickTime:                 number
+! URxvt*jumpScroll:                     boolean
+! URxvt*skipScroll:                     boolean
+! URxvt*pastableTabs:                   boolean
+! URxvt*scrollstyle:                    plain
+! URxvt*scrollBar_right:                boolean
+! URxvt*scrollBar_floating:             true
+! URxvt*scrollBar_align:                mode
+! URxvt*thickness:                      number
+! URxvt*scrollTtyOutput:                boolean
+! URxvt*scrollTtyKeypress:              boolean
+! URxvt*scrollWithBuffer:               boolean
+! URxvt*tintColor:                      !7DA55
+! URxvt*blurRadius:                     HxV
+! URxvt*fading:                         number
+! URxvt*fadeColor:                      color
+! URxvt*utmpInhibit:                    boolean
+! URxvt*urgentOnBell:                   boolean
+! URxvt*visualBell:                     boolean
+! URxvt*mapAlert:                       boolean
+! URxvt*meta8:                          boolean
+! URxvt*tripleclickwords:               boolean
+! URxvt*insecure:                       boolean
+! URxvt*cursorUnderline:                boolean
+! URxvt*pointerBlank:                   boolean
+! URxvt*color0:                         color
+! URxvt*color1:                         color
+! URxvt*color2:                         color
+! URxvt*color3:                         color
+! URxvt*color4:                         color
+! URxvt*color5:                         color
+! URxvt*color6:                         color
+! URxvt*color7:                         color
+! URxvt*color8:                         color
+! URxvt*color9:                         color
+! URxvt*color10:                        color
+! URxvt*color11:                        color
+! URxvt*color12:                        color
+! URxvt*color13:                        color
+! URxvt*color14:                        color
+! URxvt*color15:                        color
+! URxvt*colorBD:                        color
+! URxvt*colorIT:                        color
+! URxvt*colorUL:                        color
+! URxvt*colorRV:                        color
+! URxvt*underlineColor:                 color
+! URxvt*scrollColor:                    color
+! URxvt*troughColor:                    color
+! URxvt*highlightColor:                 color
+! URxvt*highlightTextColor:             color
+! URxvt*cursorColor:                    color
+! URxvt*cursorColor2:                   color
+! URxvt*pointerColor:                   color
+! URxvt*pointerColor2:                  color
+! URxvt*borderColor:                    color
+! URxvt*iconFile:                       file
+! URxvt*font:                           fontname
+! URxvt*boldFont:                       fontname
+! URxvt*italicFont:                     fontname
+! URxvt*boldItalicFont:                 fontname
+! URxvt*intensityStyles:                boolean
+! URxvt*inputMethod:                    name
+! URxvt*preeditType:                    style
+! URxvt*imLocale:                       string
+! URxvt*imFont:                         fontname
+! URxvt*title:                          string
+! URxvt*iconName:                       string
+! URxvt*buffered:                       boolean
+! URxvt*depth:                          number
+! URxvt*visual:                         number
+! URxvt*transient-for:                  windowid
+! URxvt*override-redirect:              boolean
+! URxvt*hold:                           boolean
+! URxvt*externalBorder:                 number
+! URxvt*internalBorder:                 number
+! URxvt*borderLess:                     true
+! URxvt*lineSpace:                      number
+! URxvt*letterSpace:                    number
+! URxvt*skipBuiltinGlyphs:              boolean
+! URxvt*pointerBlankDelay:              number
+! URxvt*backspacekey:                   string
+! URxvt*deletekey:                      string
+! URxvt*print-pipe:                     string
+! URxvt*modifier:                       modifier
+! URxvt*cutchars:                       string
+! URxvt*answerbackString:               string
+! URxvt*secondaryScreen:                boolean
+! URxvt*secondaryScroll:                boolean
+! URxvt*perl-lib:                       string
+! URxvt*perl-eval:                      perl-eval
+! URxvt*perl-ext-common:                string
+! URxvt*perl-ext:                       string
+! URxvt*iso14755:                       boolean
+! URxvt*iso14755_52:                    boolean
+! URxvt*xrm:                            string
+! URxvt*keysym.sym:                     keysym
+! URxvt*background.border:              boolean
+! URxvt*background.expr:                string
+! URxvt*background.interval:            seconds
+! URxvt*bell-command:                   string
+! URxvt*kuake.hotkey:                   string
+! URxvt*matcher.button:                 string
+! URxvt*matcher.launcher:               string
+! URxvt*matcher.launcher.*:             string
+! URxvt*matcher.pattern.*:              string
+! URxvt*matcher.rend.*:                 string
+! URxvt*remote-clipboard.fetch:         string
+! URxvt*remote-clipboard.store:         string
+! URxvt*searchable-scrollback:          string
+! URxvt*selection-autotransform.*:      string
+! URxvt*selection-pastebin.cmd:         string
+! URxvt*selection-pastebin.url:         string
+! URxvt*selection.pattern-0:            string
+! URxvt*tab-bg:                         colour
+! URxvt*tab-fg:                         colour
+! URxvt*tabbar-bg:                      colour
+! URxvt*tabbar-fg:                      colour
+! URxvt*url-launcher:                   string
