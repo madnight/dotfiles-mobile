@@ -7,7 +7,6 @@ Programms i use:
 +  i3 - as Window Manager
 +  vim - as editor
 +  j4-dmenu-desktop - to run programs
-+  xdotool - for window movement in xfce4
 +  compton - as compositor to avoid tearing
 
 CURRENT:
